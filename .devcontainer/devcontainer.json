@@ -1,0 +1,13 @@
+{
+  "name": "QUANTEK Kuantum Ortamı",
+  "image": "mcr.microsoft.com/devcontainers/python:3.10",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter",
+        "ms-python.python"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install --upgrade pip && pip install qiskit qiskit-aer matplotlib pylatexenc"
+}
